@@ -5,16 +5,16 @@ import NavTab from '../components/NavTab';
 
 export default function Accounts(){
     return(
-        <div className="bg-warning d-flex flex-column align-items-center">
-            <div className="bg-white d-flex flex-column align-items-center m-2 p-3">
+        <div className="bg-warning d-flex flex-column align-items-center h-100 pt-5">
+            <div className="bg-white d-flex flex-column align-items-center m-2 p-3 mb-5 w-100">
                 <Image className="rounded-circle img-thumbnail img-responsive w-50" src={UserProfileImage} alt="User Image" />
                 <p className='m-1'><strong>Faith Roberts</strong></p>
                 <Image src={Info} alt="User Info" />
             </div>
 
-            <div className="bg-white m-2 d-flex justify-content-around p-2">
+            <div className="bg-white m-2 d-flex justify-content-around p-2 w-100">
                 <div className='m-2'>
-                    <i className="bi-person fs-3 me-3"></i>
+                    <i className="bi-person fs-3"></i>
                 </div>
                 <div>
                     <div><p><strong>Edit Profile</strong></p></div>
@@ -23,9 +23,9 @@ export default function Accounts(){
                 <i className="bi-carat-right fs-3"></i>
             </div>
 
-            <div className="bg-white m-2 d-flex justify-content-around p-2">
+            <div className="bg-white m-2 d-flex justify-content-around p-2 w-100">
                 <div className='m-2'>
-                    <i className="bi-gear fs-3 me-3"></i>
+                    <i className="bi-gear fs-3"></i>
                 </div>
                 <div>
                     <div><p><strong>Settings</strong></p></div>
