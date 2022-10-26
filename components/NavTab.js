@@ -25,7 +25,7 @@ export default function NavTab(){
         <div className="col text-center">
             <Link href="/accounts" passRef legacyBehavior>
 
-                <a href="/" className="w-100 d-block text-decoration-none text-dark">
+                <a className="w-100 d-block text-decoration-none text-dark">
                     <i className="bi-person fs-4"></i>
                     <p className="my-0">Account</p>
                     <i className="bi-dot text-dark"></i>

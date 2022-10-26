@@ -41,7 +41,7 @@ export default function AddUserForm(){
                     <select id="disabledSelect" className="form-select bg-warning" onChange={(e) => setIdentification(e.target.value)}>
                         <option value="">Select Means of Identification</option>
                         <option value="NIN">National Identity Number(NIN)</option>
-                        <option value="VC">Voter's Card</option>
+                        <option value="VC">Voters Card</option>
                     </select>
                 </div>
                 <div className="mb-5">
