@@ -11,12 +11,12 @@ export default function AgentCard({userBalance, userAmount}){
                     <i className="bi-eye fs-3"></i>
                 </div>
             </div>
-            <div className="d-flex justify-content-between">
-                <div>
+            <div className="row">
+                <div className="col">
                     <p>Ofafa Payment - <span className="fw-bold">{userAmount}</span> </p>
                 </div>
-                <div>
-                    <button className="btn btn-success">Pay Now</button>
+                <div className="col">
+                    <button className="btn btn-success w-100 text-white">Pay Now</button>
                 </div>
             </div>
         </div>

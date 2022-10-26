@@ -5,7 +5,7 @@ export default function Topbar(){
     return(
         <div className="d-flex justify-content-between pt-4">
             <div className="d-flex w-50 justify-content-around">
-                <Image src={avatar} alt="" className="rounded-circle img-thumbnail img-responsive w-25" />
+                <Image src={avatar} alt="" className="img-thumbnail img-responsive w-25 rounded" />
                 <div className="d-flex flex-column">
                     <p className="text-secondary mb-0">Ofafa Agent</p>
                     <p>Faith</p>

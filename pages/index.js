@@ -31,8 +31,8 @@ useEffect(() => {
                 <label htmlFor="password"></label>
                 <input typeof="text" name="password" placeholder="Password" className="form-control" min={8} max={20} onChange={(e) => setPassword(e.target.value)}/>
             </div>
-            <Link href="/dashboard" passRef legacyBehavior>
-                <a className={filledForm ?"btn btn-success w-100 mt-3" : "btn bg-secondary btn-disabled w-100 mt-3"}>Sign In</a> 
+            <Link href={filledForm ? "/dashboard" : "/"} passRef legacyBehavior>
+                <a className={filledForm ?"btn btn-light w-100 mt-3" : "btn bg-secondary btn-disabled w-100 mt-3"}>Sign In</a> 
             </Link>
                
             </div>
