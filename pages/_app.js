@@ -13,7 +13,7 @@ function MyApp({Component, pageProps}) {
     require("bootstrap/dist/js/bootstrap.bundle.min.js");
   }, []);
   return (
-     <div className="vw-md-50 vh-100 mx-md-auto border bg-secondary">
+     <div className="vw-md-50 vh-100 mx-md-auto border bg-warning">
         <Component {...pageProps}/>
     </div>
   );

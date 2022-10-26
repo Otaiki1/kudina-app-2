@@ -9,8 +9,8 @@ export default function UserDetails({img, bvnNumber, userName, userDOB, userGend
             <p>{userName}</p>
             <p>{userDOB}</p>
             <p>{userGender}</p>
-            <button className="mt-5 btn btn-success text-white"> Add Next of Kin</button>
-            <div className="pb-5 fixed-bottom vw-md-50 mx-auto">
+            <button className="mt-5 btn btn-danger text-success"> Add Next of Kin</button>
+            <div className="pb-5 fixed-bottom vw-md-50 mx-auto px-3">
                 <ButtonComp text="Confirm NIN Details and Biometrics" disabled={false} />
             </div>
             
