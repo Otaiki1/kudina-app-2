@@ -1,4 +1,4 @@
-import avatar from "../assets/user_avatar.jpg"
+import avatar from "../assets/user_avatar.jpeg"
 import Image from "next/image";
 export default function Topbar(){
 
@@ -8,7 +8,7 @@ export default function Topbar(){
                 <Image src={avatar} alt="" className="rounded-circle img-thumbnail img-responsive w-25" />
                 <div className="d-flex flex-column">
                     <p className="text-secondary mb-0">Ofafa Agent</p>
-                    <p>Halima</p>
+                    <p>Faith</p>
                 </div>
             </div>
             <div className="w-25 d-flex justify-content-end px-5">
